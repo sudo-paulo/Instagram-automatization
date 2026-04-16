@@ -12,13 +12,30 @@ Sistema automatizado para:
 - Extrair e-mails e links de contato
 - Enviar e-mails automaticamente via Gmail
 
-## 📦 Estrutura
+## Estrutura
 
 - `main_coletor.py` → coleta leads
 - `main_envio.py` → envia e-mails
 - `entrada/empresas.txt` → lista de empresas
 - `saida/usuarios.txt` → leads coletados
 
-## ⚙️ Como usar
+## Como usar
 
 ### 1. Instalar dependências
+
+pip install -r requirements.txt
+
+### 2. Rodar coletor
+
+python main_coletor.py
+
+### 3. Rodar envio
+
+python main_envio.py
+
+
+## Observações
+
+- Use conta do Instagram logada
+- Evite rodar por longos períodos (risco de bloqueio)
+- Use senha de app no Gmail
